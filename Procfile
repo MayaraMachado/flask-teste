@@ -1,2 +1,2 @@
-web: gunicorn app:app
-release: python manage.py db upgrade
+FLASK_APP=hello.py flask run
+web: python app.py
